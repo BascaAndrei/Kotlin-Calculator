@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/almostBlack"
+    tools:ignore="HardCodedText"
     tools:context=".MainActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
             android:layout_height="wrap_content"
             android:lines="1"
             android:maxLines="1"
-            android:text=""
+            android:text="Hello"
             android:textColor="@color/white"
             android:textAlignment="textEnd"
             android:textSize="40sp"
