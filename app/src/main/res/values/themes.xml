@@ -2,11 +2,11 @@
 
     <style name="Base.Theme.KotlinCalculator" parent="Theme.AppCompat">
 
-        <item name="ColorPrimary"></item>
-        <item name="ColorPrimaryVariant"></item>
-        <item name="ColorOnPrimary"></item>
+        <item name="ColorPrimary">@color/orange</item>
+        <item name="ColorPrimaryVariant">@color/almostBlack</item>
+        <item name="ColorOnPrimary">@color/white</item>
 
         <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
 
-    <style name="Theme.KotlinCalculator" parent="Base.Theme.KotlinCalculator" />
+     </style>
 </resources>
