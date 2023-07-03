@@ -1,5 +1,6 @@
 package com.example.kotlincalculator
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity()
         setContentView(R.layout.activity_main)
     }
 
+    @SuppressLint("SuspiciousIndentation")
     fun numberAction(view: View)
     {
         if(view is Button)
